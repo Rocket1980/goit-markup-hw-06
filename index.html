@@ -394,13 +394,19 @@
                     </a>
                 </div>
             </div>
-            <div>
-                <h3>Подпишитесь на рассылку</h3>
-                <form>
+            <div class="mail-input">
+                <h3 class="mail-input-heading">Подпишитесь на рассылку</h3>
+                <form class="mail-input-siz">
                     <label>
-                        <input type="email" name="email" placeholder="E-mail"/>
+                        <input class="mail-input-text" type="email" name="email" placeholder="E-mail"/>
                     </label>
-                    <button type="Подписаться" href="./images/symbol-defs.svg#icon-icon-send">Подписаться</button>
+                    <!-- <div class="button-group"> -->
+                    <button class="mail-input-button" type="Подписаться">Подписаться
+                    <svg class="mail-input-images">
+                        <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                    </svg>
+                    </button>
+                    <!-- </div> -->
                 </form>
             </div>
         </div>
