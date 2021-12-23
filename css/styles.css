@@ -659,6 +659,10 @@ span {
   text-transform: uppercase;
 
   color: #ffffff;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
 }
 
 .mail-input-siz {
@@ -675,20 +679,14 @@ span {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #2f303a;
   border-radius: 4px;
+  text-indent: 16px;
 }
-
-/* .button-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 143px;
-  height: 30px;
-} */
 
 .mail-input-button {
   width: 200px;
   height: 50px;
   margin-left: 12px;
+  border-radius: 4px;
   background-color: var(--theme-color);
 
   font-family: var(--secondary-font);
@@ -699,7 +697,7 @@ span {
 
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.06em;
 
   color: #ffffff;
