@@ -776,3 +776,29 @@ span {
   margin-top: 40px;
   margin-bottom: 12px;
 }
+
+.modal-form {
+  width: 448px;
+  height: 342px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.modal-form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-input {
+  width: 448px;
+  height: 58px;
+}
+
+.modal-svg {
+  width: 12px;
+  height: 12px;
+}
