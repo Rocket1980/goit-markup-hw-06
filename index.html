@@ -425,36 +425,35 @@
         </button>
         <div class="modal-form">
             <form class="modal-form-input">
-                <label>
+                <label class="modal-fokus">
                     Имя
-                    <input type="name" class=" modal-input" name="name"/>
+                    <input type="name" class="modal-input" name="name" required/>
                     <svg class="modal-svg">
                         <use href="images/symbol-defs.svg#icon-man"/>
                     </svg>
                 </label>
-                <label>
+                <label class="modal-fokus">
                     Телефон
-                    <input type="tel" class=" modal-input" name="phone-number"/>
+                    <input type="tel" class="modal-input" name="phone-number" required/>
                     <svg class="modal-svg">
                         <use href="images/symbol-defs.svg#icon-tel"/>
                     </svg>
                 </label>
-                <label>
+                <label class="modal-fokus">
                     Почта
-                    <input type="email" class=" modal-input" name="email" autofocus/>
-                    <svg class=" modal-svg">
+                    <input type="email" class="modal-input" name="email" autofocus/>
+                    <svg class="modal-svg">
                         <use href="images/symbol-defs.svg#icon-mail"/>
                     </svg>
                 </label>
-                <label>
+                <label class="modal-fokus">
                     Комментарий
-                    <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                    <textarea name="feedback" class="modal-feedback" rows="5" placeholder="Введите текст"></textarea>
                 </label>
-                <label>
-                    <input type="checkbox" name="" value="Соглашаюсь с рассылкой и принимаю Условия договора"/>
-                    Соглашаюсь с рассылкой и принимаю Условия договора
+                <label class="modal-checkbox">
+                    <input class="modal-checkbox-input" type="checkbox"> Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
                 </label>
-                <button type="submit">Отправить</button>
+                <button class="modal-button-form" type="submit">Отправить</button>
             </form>
         </div>
     </div>
