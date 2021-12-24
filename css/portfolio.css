@@ -403,3 +403,67 @@ span {
   width: 20px;
   height: 20px;
 }
+
+.mail-input {
+  margin-left: 93px;
+}
+
+.mail-input-heading {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.mail-input-siz {
+  width: 579px;
+  height: 86px;
+
+  display: flex;
+}
+
+.mail-input-text {
+  box-sizing: border-box;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #2f303a;
+  border-radius: 4px;
+  text-indent: 16px;
+}
+
+.mail-input-button {
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  border-radius: 4px;
+  background-color: var(--theme-color);
+
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.mail-input-images {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
