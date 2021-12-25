@@ -435,10 +435,13 @@ span {
   box-sizing: border-box;
   width: 358px;
   height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
   border-radius: 4px;
   text-indent: 16px;
+  font-family: var(--secondary-font);
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 
 .mail-input-button {
@@ -446,6 +449,7 @@ span {
   height: 50px;
   margin-left: 12px;
   border-radius: 4px;
+  border: none;
   background-color: var(--theme-color);
 
   font-family: var(--secondary-font);
